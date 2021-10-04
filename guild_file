@@ -6,7 +6,7 @@ sudo ufw allow 3389
 sudo apt install xrdp
 sudo systemctl enable --now xrdp
 
-nano /etc/xrdp/startvm.sh
+nano /etc/xrdp/startwm.sh
 
 # Before "if test ..." line, put these texts:
 unset DBUS_SESSION_BUS_ADDRESS
