@@ -3,7 +3,7 @@
 sudo -s 
 
 sudo ufw allow 3389
-sudp apt-get install tightvncserver
+sudo apt-get install tightvncserver
 sudo apt-get install xrdp
 
 sudo systemctl enable --now xrdp
@@ -18,3 +18,10 @@ unset XDG_RUNTIME_DIR
 
 # Ctrl+X: to exit and save
 # Reboot command
+
+# if cannot connect, continue:
+sudo apt-get -y install xserver-xorg-input-all
+
+sudo apt-get install xorgxrdp
+r
+sudo apt-get install xserver-xorg-core
