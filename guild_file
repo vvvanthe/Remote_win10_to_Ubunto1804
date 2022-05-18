@@ -23,5 +23,5 @@ unset XDG_RUNTIME_DIR
 sudo apt-get -y install xserver-xorg-input-all
 
 sudo apt-get install xorgxrdp
-r
+
 sudo apt-get install xserver-xorg-core
