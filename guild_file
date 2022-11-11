@@ -25,3 +25,6 @@ sudo apt-get -y install xserver-xorg-input-all
 sudo apt-get install xorgxrdp
 
 sudo apt-get install xserver-xorg-core
+
+# if full blue screen and no reponse:
+sudo apt-get install xorgxrdp-hwe-18.04
